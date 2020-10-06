@@ -36,12 +36,6 @@ $faq = [
   ],
 ];
 
-foreach ($faq as $faqs) {
-  foreach ($faqs as $key => $value) {
-    echo $value. "<br>"."<br>";
-  }
-}
-
  ?>
 
 
@@ -51,6 +45,10 @@ foreach ($faq as $faqs) {
     <meta charset="utf-8">
     <title>Faq Google</title>
   </head>
+  <?php foreach ($faq as $faqs) { ?>
+    <h3><?php echo $faqs["question"]; ?></h3>
+    <p><?php  echo $faqs["answer"]?></p>
+  <?php } ?>
   <body>
 
   </body>
