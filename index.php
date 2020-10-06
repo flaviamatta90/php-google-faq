@@ -43,13 +43,15 @@ $faq = [
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
     <title>Faq Google</title>
   </head>
-  <?php foreach ($faq as $faqs) { ?>
-    <h3><?php echo $faqs["question"]; ?></h3>
-    <p><?php  echo $faqs["answer"]?></p>
-  <?php } ?>
   <body>
-
+    <div class="container">
+      <?php foreach ($faq as $faqs) { ?>
+        <h3><?php echo $faqs["question"]; ?></h3>
+        <p><?php  echo $faqs["answer"]?></p>
+      <?php } ?>
+    </div>
   </body>
 </html>
