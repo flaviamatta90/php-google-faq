@@ -47,6 +47,21 @@ $faq = [
     <title>Faq Google</title>
   </head>
   <body>
+    <div class="header">
+    <div class="nav-bar-up">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="">
+      <h3 class="privacy">Privacy e termini</h3>
+    </div>
+    <div class="nav-bar-down">
+      <ul class="list-inline">
+        <li>Introduzione</li>
+        <li>Norme sulla privacy</li>
+        <li>Termini di servizio</li>
+        <li>Tecnologie</li>
+        <li class="domande">Domande Frequenti</li>
+      </ul>
+    </div>
+    </div>
     <div class="container">
       <?php foreach ($faq as $faqs) { ?>
         <h3><?php echo $faqs["question"]; ?></h3>
