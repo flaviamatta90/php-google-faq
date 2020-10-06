@@ -3,9 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
 header{
   border-bottom: 1px solid #cbcbcb;
+  padding-bottom: 11px;
 }
+
 .header{
   width: 95%;
   margin: auto;
@@ -22,9 +26,6 @@ header{
   padding-left: 15px;
 }
 
-.nav-bar-down{
-  width: 50%;
-}
 
 .list-inline{
   display: flex;
@@ -33,15 +34,25 @@ header{
   list-style: none;
 }
 
+.list-inline li{
+  margin-right: 40px;
+}
+
 .list-inline a{
   text-decoration: none;
   color: #63636b;
 }
 
-.domande{
+.domande a{
   color: #3367d6;
   border-bottom: 3px solid #3367d6;
   padding-bottom: 10px;
+}
+
+.end{
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 0;
 }
 
 .container{

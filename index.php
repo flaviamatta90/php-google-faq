@@ -59,7 +59,8 @@ $faq = [
           <li> <a href="#">Norme sulla privacy</a></li>
           <li><a href="#">Termini di servizio</a></li>
           <li><a href="#">Tecnologie</a></li>
-          <li class="domande">Domande Frequenti<a href="#"></a></li>
+          <li class="domande"><a href="#">Domande Frequenti</a></li>
+          <li class="end"><a href="#">flaviamatta90@gmail.com</a></li>
         </ul>
       </div>
       </div>
