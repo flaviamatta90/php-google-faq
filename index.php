@@ -44,25 +44,26 @@ $faq = [
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Faq Google</title>
   </head>
   <body>
     <header>
       <div class="header">
-      <div class="nav-bar-up">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="">
-        <h3 class="privacy">Privacy e termini</h3>
-      </div>
-      <div class="nav-bar-down">
-        <ul class="list-inline">
-          <li><a href="#">Introduzione</a></li>
-          <li> <a href="#">Norme sulla privacy</a></li>
-          <li><a href="#">Termini di servizio</a></li>
-          <li><a href="#">Tecnologie</a></li>
-          <li class="domande"><a href="#">Domande Frequenti</a></li>
-          <li class="end"><a href="#">flaviamatta90@gmail.com</a></li>
-        </ul>
-      </div>
+        <div class="nav-bar-up">
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="">
+          <h3 class="privacy">Privacy e termini</h3>
+        </div>
+        <div class="nav-bar-down">
+          <ul class="list-inline">
+            <li><a href="#">Introduzione</a></li>
+            <li> <a href="#">Norme sulla privacy</a></li>
+            <li><a href="#">Termini di servizio</a></li>
+            <li><a href="#">Tecnologie</a></li>
+            <li class="domande"><a href="#">Domande Frequenti</a></li>
+            <li class="end"><a href="#"><div class="f">F</div> <span>flaviamatta90@gmail.com</span></a></li>
+          </ul>
+        </div>
       </div>
     </header>
 
