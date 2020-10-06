@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+header{
+  border-bottom: 1px solid #cbcbcb;
+}
 .header{
   width: 95%;
   margin: auto;
@@ -27,9 +29,13 @@
 .list-inline{
   display: flex;
   justify-content: space-between;
-  padding:10px 5px;
-  color: #63636b;
+  padding: 0;
   list-style: none;
+}
+
+.list-inline a{
+  text-decoration: none;
+  color: #63636b;
 }
 
 .domande{
